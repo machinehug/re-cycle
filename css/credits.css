@@ -1,0 +1,51 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   CREDITS
+   ==========================================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    margin-top: 1.7rem;
+    width: 15rem;
+    filter: invert(100);
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.hamburger-toggle,
+.hamburger-close,
+.logo {
+    filter: invert(100);
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+a {
+    color: #6B48FF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 0.05rem;
+}
+
+a:hover {
+    color: black;
+}

@@ -1,0 +1,154 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   TOURS
+   ==========================================================================*/
+
+body {
+    background-image: none;
+}
+
+.tour-street-art {
+    background-image: url(../img/tours/streetart.jpg);
+}
+
+.tour-secrets {
+    background-image: url(../img/tours/secrets.jpg);
+}
+
+.tour-parks {
+    background-image: url(../img/tours/parks.jpg);
+}
+
+.tour-attractions {
+    background-image: url(../img/tours/attractions.jpg);
+}
+
+.tour-aroundtown {
+    background-image: url(../img/tours/aroundtown.jpg);
+}
+
+.tour-flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+h2,
+h3,
+h4 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0.5rem;
+}
+
+h4 {
+    padding-left: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 0);
+}
+
+.tour-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    padding-top: 2rem;
+}
+
+.tour-btn {
+    background-color: rgb(241, 241, 241);
+    border: 5px solid black;
+    color: black;
+    font-size: 3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 20rem;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.tour-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.single-tour-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    max-width: 50rem;
+    padding-bottom: 10rem;
+}
+
+.tours-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.tour-info {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    flex-flow: row wrap;
+    padding: 0.5rem;
+    margin: 0 auto;
+    border-top: 5px solid white;
+}
+
+.tour-info-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-self: flex-end;
+}
+
+.pic {
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    border: none
+}
+
+/* ==========================================================================
+      MEDIA
+      ==========================================================================*/
+
+@media only screen and (min-width: 1024px) {
+
+    .tour-btn-wrapper {
+        justify-content: flex-end;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 2.2rem;
+        padding: 1.4rem 2rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    .tour-info {
+        padding: 0.5rem 3rem 0.5rem 3rem;
+    }
+
+    .pic {
+        height: 50rem;
+    }
+}

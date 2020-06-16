@@ -1,0 +1,134 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   HOME (INDEX)
+   ==========================================================================*/
+
+body {
+    background-image: url(../img/photos/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: none;
+    border: none;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--yellow);
+}
+
+nav ul li a:hover,
+nav ul li span:hover {
+    color: var(--white);
+}
+
+.homepage-welcome-txt {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    font-size: 5rem;
+    font-family: 'Staatliches', cursive;
+}
+
+.homepage-welcome-txt-experience,
+.homepage-welcome-txt-newyork {
+    font-size: 3.5rem;
+}
+
+.homepage-welcome-txt-experience {
+    padding-bottom: 4.5rem;
+}
+
+.homepage-welcome-txt-newyork {
+    padding-bottom: 2rem;
+}
+
+.homepage-welcome-txt-bike {
+    font-size: 7rem;
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+}
+
+.wrapper-homepage {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper-homepage-welcome-txt {
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 110%;
+}
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ==========================================================================*/
+
+/*desktop*/
+@media only screen and (min-width: 820px) {
+
+    .wrapper-homepage-welcome-txt {
+        line-height: 300%;
+    }
+
+    .homepage-welcome-txt {
+        font-size: 10rem;
+    }
+
+    .homepage-welcome-txt-experience {
+        font-size: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    .homepage-welcome-txt-newyork {
+        font-size: 7rem;
+        padding-bottom: 0;
+    }
+
+    .homepage-welcome-txt-bike {
+        font-size: 15rem;
+        transition: transform .2s;
+        transition: transform .5s;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .homepage-welcome-txt-bike:hover {
+        -ms-transform: scale(1.6);
+        -webkit-transform: scale(1.6);
+        transform: scale(1.6);
+    }
+}
+
+/*mobile*/
+@media only screen and (max-width: 335px) {
+
+    .wrapper-homepage-welcome-txt {
+        line-height: 150%;
+    }
+
+    .homepage-welcome-txt-experience,
+    .homepage-welcome-txt-newyork {
+        font-size: 3rem;
+    }
+
+    .homepage-welcome-txt-experience {
+        padding-bottom: 1rem;
+    }
+
+    .homepage-welcome-txt-newyork {
+        padding-bottom: 0;
+    }
+
+    .homepage-welcome-txt-bike {
+        font-size: 6rem;
+    }
+}

@@ -1,0 +1,47 @@
+/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   ABOUT & CONTACT: global
+   ==========================================================================*/
+
+.max-width-about-contact {
+    width: 100%;
+    max-width: 130rem;
+}
+
+.contact-single-wrapper {
+    margin-bottom: 10rem;
+}
+
+.subhead i {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+/* ==========================================================================
+   ABOUT & CONTACT: pics
+   ==========================================================================*/
+
+.email-pic {
+    background-image: url(../img/contact/email.jpg);
+}
+
+.phone-pic {
+    background-image: url(../img/contact/phone.jpg);
+}
+
+.visit-pic {
+    background-image: url(../img/contact/visit.jpg);
+}
+
+.about-pic {
+    background-image: url(../img/about/aboutus.jpg);
+}
+
+.safety-pic {
+    background-image: url(../img/about/safety.jpg);
+}
+
+.newyorkers-pic {
+    background-image: url(../img/about/newyorkers.jpg);
+}
