@@ -1,4 +1,4 @@
-/*By Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+/*By Victoria Pettersen > github.com/machinehug & machinehug.com*/
 
 /*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -235,7 +235,7 @@ nav {
 
 nav,
 .hamburger-open {
- padding-right: 1rem;
+    padding-right: 1rem;
 }
 
 nav a:link,

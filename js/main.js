@@ -1,3 +1,5 @@
+/*By Victoria Pettersen > github.com/machinehug & machinehug.com*/
+
 const hamburgerOpen = document.querySelector(".hamburger-open");
 const hamburgerClose = document.querySelector(".hamburger-close");
 const nav = document.querySelector("nav");
